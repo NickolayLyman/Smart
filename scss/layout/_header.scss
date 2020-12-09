@@ -1,0 +1,55 @@
+.header{
+    position: absolute;
+    width: 100%;
+    padding-top: 24px;
+}
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+}
+.heder-logo-text {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.2;
+    margin-left: 5px;
+    color: $secondary-color;
+}
+.heder-logo-text-wrapper {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+}
+.navigation-list{
+    margin-left: 121px;
+    display: flex;
+}
+.navigation-list-item {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    &:not(:last-child) {
+       margin-right: 28px;
+    }
+}
+.navigation-list-link{
+    color: $secondary-color;
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
+
+}
+.tel-header {
+    margin-left: 121px;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 1.21;
+    color: $accent-color;
+} 
