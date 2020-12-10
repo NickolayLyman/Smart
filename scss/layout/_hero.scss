@@ -21,7 +21,8 @@
     color:$secondary-color;
     margin-bottom: 66px;
 }
-.hero-link {
+.hero-btn {
+    
     padding-top: 20px;
     padding-right: 70px;
     padding-bottom: 20px;
@@ -33,4 +34,5 @@
     font-size: 24px;
     line-height: 1.2;
     color: $main-color;
+    border-color: transparent;
 }

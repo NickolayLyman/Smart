@@ -16,13 +16,13 @@
       </div>
     <nav class="navigation">
       <ul class="navigation-list">
-        <li class="navigation-list-item"><a class="navigation-list-link" href="#">О нас</a></li>
-        <li class="navigation-list-item"><a class="navigation-list-link" href="#">Переводы</a></li>
-        <li class="navigation-list-item"><a class="navigation-list-link" href="#">Другие услуги</a></li>
-        <li class="navigation-list-item"><a class="navigation-list-link" href="#">Контакты</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link" href="#about">О нас</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link" href="#order">Переводы</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link" href="#services">Другие услуги</a></li>
+        <li class="navigation-list-item"><a class="navigation-list-link" href="#footer">Контакты</a></li>
       </ul>
     </nav>
-    <a class="tel-header" href="tel:+380994649490">+38 (099) 464-94-90 </a>
+    <a class="tel-header" href="tel:+380994649490" aria-label="Контактный телефон">+38 (099) 464-94-90 </a>
   </div>
     </header>
     <section class="hero-section">
@@ -33,10 +33,10 @@
                                         истинное наслаждение от перевода книги и стиля <br>  
                                         её изложения, чтобы инженер мог надёжно и безопасно<br> 
                                           собрать станок и т. д.</p>
-        <a class="hero-link" href="#">Оставить заявку</a>
+        <button data-modal-open type="button" class="hero-btn modal-btn" >Оставить заявку</button>
       </div>
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <ul class="about-list">
           <li class="about-list-item"><span class="about-list-item-wrapper">4+</span><br>лет работы</li>
@@ -45,31 +45,31 @@
         </ul>
       </div>
     </section>
-    <section class="services-section">
+    <section class="services-section" id="services">
       <div class="container">
       <h2 class="services-title">Наши услуги</h2>
       <div class="services-list-wrapper">
         <ul class="services-list">
-          <li class="services-list-item">Переводы<span class="pointer-wrapper">...............................................................</span>от <span class="services-list-item-wrapper">90 </span>грн</li>
-          <li class="services-list-item">Апостиль<span class="pointer-wrapper">..............................................................</span>от <span class="services-list-item-wrapper">200 </span>грн</li>
-          <li class="services-list-item">Нотариальная заверка<span class="pointer-wrapper">..................................</span>от <span class="services-list-item-wrapper">80 </span>грн</li>
-          <li class="services-list-item">Вёрстка<span class="pointer-wrapper">...........................................................</span>от <span class="services-list-item-wrapper">30 </span> грн/стр</li>
-          <li class="services-list-item">Заверка печатью бюро<span class="pointer-wrapper">..........................</span><span class="services-list-item-wrapper">бесплатно</span></li>
+          <li class="services-list-item">Переводы<span>от <span class="services-list-item-wrapper">90</span> грн</span></li>
+          <li class="services-list-item">Апостиль<span>от <span class="services-list-item-wrapper">200</span> грн</span></li>
+          <li class="services-list-item">Нотариальная заверка<span>от <span class="services-list-item-wrapper">80 </span>грн </span></li>
+          <li class="services-list-item">Вёрстка<span>от <span class="services-list-item-wrapper">30 </span> грн/стр</span></li>
+          <li class="services-list-item">Заверка печатью бюро<span class="services-list-item-wrapper">бесплатно</span></li>
         </ul>
         <ul class="services-list">
-          <li class="services-list-item">Копирайтинг<span class="pointer-wrapper">........................................................</span>от<span class="services-list-item-wrapper"> 95 </span>грн</li>
-          <li class="services-list-item">Редактура<span class="pointer-wrapper">..............................................................от</span><span class="services-list-item-wrapper"> 45 </span>грн</li>
-          <li class="services-list-item">Получение дубликатов ЗАГС<span class="pointer-wrapper">................</span>от<span class="services-list-item-wrapper"> 400 </span>грн</li>
-          <li class="services-list-item">ИНН для иностранца<span class="pointer-wrapper">........................................</span><span class="services-list-item-wrapper">300 </span>грн</li>
-          <li class="services-list-item">Справка о несудимости<span class="pointer-wrapper">............................от</span><span class="services-list-item-wrapper"> 350 </span>грн</li>
+          <li class="services-list-item">Копирайтинг<span>от<span class="services-list-item-wrapper"> 95 </span>грн</span></li>
+          <li class="services-list-item">Редактура<span>от<span class="services-list-item-wrapper"> 45 </span>грн</span></li>
+          <li class="services-list-item">Получение дубликатов ЗАГС<span>от<span class="services-list-item-wrapper"> 400 </span>грн</span></li>
+          <li class="services-list-item">ИНН для иностранца<span><span class="services-list-item-wrapper">300 </span>грн</span></li>
+          <li class="services-list-item">Справка о несудимости<span>от<span class="services-list-item-wrapper"> 350 </span>грн</span></li>
         </ul>
       </div>
       <div class="services-link-wrapper">
-        <a class="services-link" href="#">Узнать подробнее</a>
+        <a class="services-link" href="https://www.bp-smart.in.ua/" target="_blank" aria-label="Переход на основной сайт">Узнать подробнее</a>
       </div>
       </div>
     </section>
-    <section class="order-section">
+    <section class="order-section" id="order">
       <div class="container">
         <h2 class="order-section-title">Схема обработки заказа</h2>
         <p class="order-section-text">Мы работаем открыто, и вы можете оставаться в курсе того,на каком этапе<br>
@@ -126,7 +126,7 @@
         </ul>
     </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-logo-wrapper">
           <img src="./img/logo-footer.png" alt="Логотип футер">
@@ -137,36 +137,36 @@
         <div class="footer-contacts-wrapper">
           <p class="address">Украина, г. Харьков,<br>
             ст. м. Университет, <br>
-            <span class="address-wrapper">ул. Сумская, 67 (вход в подъезд)</span><br>
+            <a href="https://goo.gl/maps/2FypdHrVZ6UcqKrC9" target="_blank" class="address-link" aria-label="Переход на карту с арессом офиса">ул. Сумская, 67 (вход в подъезд)</a><br>
              2-й этаж, комната 7
           </p>
-          <p class="mail"><a class="mail-link"  href="mailto:zakaz@bp-smart.in.ua">zakaz@bp-smart.in.ua</a> <br>
+          <p class="mail"><a class="mail-link"  href="mailto:zakaz@bp-smart.in.ua" aria-label="Почта для заказов перевода">zakaz@bp-smart.in.ua</a> <br>
             для консультаций и заказов<br>
-            <a class="mail-link" href="mailto:rabota@bp-smart.in.ua">rabota@bp-smart.in.ua</a><br> 
+            <a class="mail-link" href="mailto:rabota@bp-smart.in.ua"  aria-label="Почта по вопросамсотрудничества">rabota@bp-smart.in.ua</a><br> 
             для сотрудничества
           </p>
           <ul class="contacts-list">
             <li class="contacts-list-item">
-              <a class="tel-footer contacts-link" href="tel:+380994649490">+38 (099) 464-94-90</a>
+              <a class="tel-footer contacts-link" href="tel:+380994649490" aria-label="Контактный телефон">+38 (099) 464-94-90</a>
             </li>
             <li class="contacts-list-item">
               <ul class="social-list">
                 <li class="social-list-item">
-                  <a href="https://t.me/bp_smart" target="_blank">
+                  <a href="https://t.me/bp_smart" target="_blank" aria-label="Чат в телеграмме">
                   <svg class="social-icon" width="40" height="40"> 
                     <use href="./img/sprite.svg#icon-telegram"></use>
                   </svg>
                 </a>
               </li>
                 <li class="social-list-item">
-                  <a href="https://api.whatsapp.com/send?phone=380994649490" target="_blank">
+                  <a href="https://api.whatsapp.com/send?phone=380994649490" target="_blank" aria-label="Чат в ватсаппе">
                   <svg class="social-icon" width="40" height="40"> 
                     <use href="./img/sprite.svg#icon-whatsapp"></use>
                   </svg>
                 </a>
               </li>
                 <li class="social-list-item">
-                  <a href="viber://chat?number=%2B380994649490" target="_blank">
+                  <a href="viber://chat?number=%2B380994649490" target="_blank" aria-label="Чат в вайбере">
                     <svg class="social-icon" width="40" height="40"> 
                       <use href="./img/sprite.svg#icon-viber"></use>
                     </svg>
@@ -175,13 +175,38 @@
               </ul>
             </li>
             <li class="contacts-list-item">
-              <a class="contacts-link" href="skype:bp-smart?chat"><span class="skype-wrapper" target="_blank">Скайп:</span> bp-smart</a>
+              <a class="contacts-link" href="skype:bp-smart?chat"><span class="skype-wrapper" target="_blank" aria-label="Контакт в скайпе">Скайп:</span> bp-smart</a>
             </li>
           </ul>
         </div> 
       </div> 
       <p class="copyright">© 2016 - 2020 SMART TRANSLATION AGENCY. ALL RIGNHTS RESERVED.</p>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <form action="#" class="modal-form">
+          <h2 class="modal-form-title">Заполните форму и наш<br> менеджер свяжется с Вами</h2>
+          <button data-modal-close type="button" class="modal-form-close-btn">
+              <svg class="modal-form-close-btn-icon" width="11" height="11"> 
+                  <use href="./img/sprite.svg#icon-close-btn"></use>
+              </svg>  
+          </button>
+          <div class="modal-form-field">
+              <input type="text" name="user-name" class="modal-form-input" id="user-name" placeholder=" " required>
+              <label for="user-name" class="modal-form-label">Имя</label>
+          </div>
+          <div class="modal-form-field">   
+              <input type="tel" name="user-phone" class="modal-form-input" id="user-phone" placeholder=" " required>
+              <label for="user-phone" class="modal-form-label">Телефон</label>
+          </div>
+          <div class="modal-form-field"> 
+              <input type="email" name="user-email" class="modal-form-input" id="user-email" placeholder=" " required>
+              <label for="user-email" class="modal-form-label">Почта</label>
+          </div>
+          <button data-modal-close type="submit" class="modal-form-btn modal-btn-send" >Отправить</button>
+      </form>
+  </div> 
+  <script src="./js/modal.js"></script>
+  <!-- <script src="./js/menu.js"></script> -->
   </body>
 </html>
 
