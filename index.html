@@ -14,7 +14,7 @@
         <img src="./img/logo-header.png" alt="Логотип-хедер">
         <p class="heder-logo-text"><span class="heder-logo-text-wrapper">Смарт<br></span>Бюро переводов</p>
       </div>
-    <nav class="navigation">
+    <nav class="navigation menu-wrapper" data-menu>
       <ul class="navigation-list">
         <li class="navigation-list-item"><a class="navigation-list-link" href="#about">О нас</a></li>
         <li class="navigation-list-item"><a class="navigation-list-link" href="#order">Переводы</a></li>
@@ -22,6 +22,12 @@
         <li class="navigation-list-item"><a class="navigation-list-link" href="#footer">Контакты</a></li>
       </ul>
     </nav>
+    <button type="button" aria-expanded="false" aria-controls="menu-wrapper" class="menu-btn" data-menu-button>
+      <svg width="33" height="19"> 
+       <use href="./img/sprite.svg#icon-close" class="icon-close"></use>
+       <use href="./img/sprite.svg#icon-menu" class="icon-menu"></use>
+       </svg>
+   </button>
     <a class="tel-header" href="tel:+380994649490" aria-label="Контактный телефон">+38 (099) 464-94-90 </a>
   </div>
     </header>
@@ -129,7 +135,7 @@
     <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-logo-wrapper">
-          <img src="./img/logo-footer.png" alt="Логотип футер">
+          <img class="logo-footer" src="./img/logo-footer.png" alt="Логотип футер">
           <p class="footer-text">Несмотря на то, что контакты компании указаны только в Харькове, вы <span class="footer-text-wrapper">всегда можете
             оформить заказ из любого другого города</span> и мы доставим его посредством курьерских 
             служб или почты. Работаем со всей Украиной и другими странами. </p>
@@ -180,7 +186,7 @@
           </ul>
         </div> 
       </div> 
-      <p class="copyright">© 2016 - 2020 SMART TRANSLATION AGENCY. ALL RIGNHTS RESERVED.</p>
+      <p class="copyright">© 2016 - 2020 SMART TRANSLATION AGENCY. ALL RIGHTS RESERVED.</p>
     </footer>
     <div data-modal class="backdrop is-hidden">
       <form action="#" class="modal-form">
@@ -206,7 +212,7 @@
       </form>
   </div> 
   <script src="./js/modal.js"></script>
-  <!-- <script src="./js/menu.js"></script> -->
+  <script src="./js/menu.js"></script>
   </body>
 </html>
 

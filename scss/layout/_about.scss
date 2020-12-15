@@ -1,11 +1,19 @@
 .about-list {
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      text-align: center;
+    }
 }
 .about-list-item {
     font-weight: 400;
     font-size: 30px;
     line-height: 1.23; 
+    @media screen and (max-width: 1199px) {
+        font-size: 25px;
+        line-height: 1.2;
+    }
 }
 
 
@@ -14,4 +22,8 @@
     font-size: 100px;
     line-height: 1.22;
     color: $accent-color;
+    @media screen and (max-width: 1199px) {
+        font-size: 70px;
+        line-height: 1.21;
+    }
 }

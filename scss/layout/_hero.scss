@@ -12,6 +12,13 @@
     line-height: 1.22;
     color: $secondary-color;
     margin-bottom: 28px;
+    @media screen and (max-width: 1199px) {
+        font-size: 40px;
+    }
+    @media screen and (max-width: 767px) {
+        font-size: 30px;
+        line-height: 1.23;
+    }
 }
 
 .hero-section-text {
@@ -20,6 +27,15 @@
     line-height: 1.23;
     color:$secondary-color;
     margin-bottom: 66px;
+    @media screen and (max-width: 1199px) {
+        font-size: 23px;
+        line-height: 1.2;
+    }
+    @media screen and (max-width: 767px) {
+        font-size: 17px;
+        line-height: 1.11;
+    }
+
 }
 .hero-btn {
     
@@ -35,4 +51,11 @@
     line-height: 1.2;
     color: $main-color;
     border-color: transparent;
+    @media screen and (max-width: 767px) {
+        padding-top: 16px;
+        padding-right: 35px;
+        padding-bottom: 16px;
+        padding-left: 35px;
+        font-size: 20px;
+    }
 }
