@@ -24,6 +24,10 @@
         width: 100%;
         margin-right: 0;
       }
+      @media screen and (max-width: 1199px) {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
 }
 .services-list-item {
     font-weight: 500;
@@ -35,7 +39,7 @@
         margin-bottom: 20px; 
     }
     @media screen and (max-width: 767px) {
-        font-size: 17px;
+        font-size: 13px;
         line-height: 1.23;
       }
 }
